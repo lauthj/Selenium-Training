@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [DemoTestAttributes]">
+  <test thread-count="5" name="DemoTestAttributes_Basic(failed)">
+    <classes>
+      <class name="com.tests.NewTest5">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="testGoogle"/>
+          <include name="testNewTours"/>
+        </methods>
+      </class> <!-- com.tests.NewTest5 -->
+    </classes>
+  </test> <!-- DemoTestAttributes_Basic(failed) -->
+</suite> <!-- Failed suite [DemoTestAttributes] -->

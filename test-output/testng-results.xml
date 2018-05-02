@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="12" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="DemopAllTests" duration-ms="120346" started-at="2018-04-16T05:50:04Z" finished-at="2018-04-16T05:52:05Z">
+    <groups>
+    </groups>
+    <test name="Demo_DataDrivenTest_Basic" duration-ms="35345" started-at="2018-04-16T05:50:04Z" finished-at="2018-04-16T05:50:40Z">
+      <class name="com.tests.NewTest3">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.tests.NewTest3@59f99ea]" name="beforeTest" is-config="true" duration-ms="10484" started-at="2018-04-16T05:50:04Z" finished-at="2018-04-16T05:50:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="testMercuryTours(java.lang.String, java.lang.String)[pri:0, instance:com.tests.NewTest3@59f99ea]" name="testMercuryTours" duration-ms="17350" started-at="2018-04-16T05:50:15Z" data-provider="dp1" finished-at="2018-04-16T05:50:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mercury]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mercury]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMercuryTours -->
+        <test-method status="PASS" signature="testMercuryTours(java.lang.String, java.lang.String)[pri:0, instance:com.tests.NewTest3@59f99ea]" name="testMercuryTours" duration-ms="2562" started-at="2018-04-16T05:50:32Z" data-provider="dp1" finished-at="2018-04-16T05:50:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kim]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kim]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMercuryTours -->
+        <test-method status="PASS" signature="testMercuryTours(java.lang.String, java.lang.String)[pri:0, instance:com.tests.NewTest3@59f99ea]" name="testMercuryTours" duration-ms="2260" started-at="2018-04-16T05:50:35Z" data-provider="dp1" finished-at="2018-04-16T05:50:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[lee]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[lee]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMercuryTours -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.tests.NewTest3@59f99ea]" name="afterTest" is-config="true" duration-ms="2418" started-at="2018-04-16T05:50:37Z" finished-at="2018-04-16T05:50:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.tests.NewTest3 -->
+    </test> <!-- Demo_DataDrivenTest_Basic -->
+    <test name="DemoFunctionCall_Parameter" duration-ms="15389" started-at="2018-04-16T05:50:40Z" finished-at="2018-04-16T05:50:55Z">
+      <class name="com.tests.NewTest5">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:com.tests.NewTest5@3abbfa04]" name="beforeTest" is-config="true" duration-ms="4266" started-at="2018-04-16T05:50:40Z" finished-at="2018-04-16T05:50:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="testGoogle()[pri:0, instance:com.tests.NewTest5@3abbfa04]" name="testGoogle" duration-ms="6395" started-at="2018-04-16T05:50:44Z" finished-at="2018-04-16T05:50:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGoogle -->
+        <test-method status="PASS" signature="testNewTours()[pri:0, instance:com.tests.NewTest5@3abbfa04]" name="testNewTours" duration-ms="2783" started-at="2018-04-16T05:50:51Z" finished-at="2018-04-16T05:50:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNewTours -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.tests.NewTest5@3abbfa04]" name="afterTest" is-config="true" duration-ms="1933" started-at="2018-04-16T05:50:53Z" finished-at="2018-04-16T05:50:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.tests.NewTest5 -->
+    </test> <!-- DemoFunctionCall_Parameter -->
+    <test name="DemoFunctionCalls_Basic" duration-ms="12" started-at="2018-04-16T05:50:55Z" finished-at="2018-04-16T05:50:55Z">
+      <class name="com.tests.NewTest1">
+        <test-method status="PASS" signature="f()[pri:1, instance:com.tests.NewTest1@4f7d0008]" name="f" duration-ms="2" started-at="2018-04-16T05:50:55Z" finished-at="2018-04-16T05:50:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="abc()[pri:2, instance:com.tests.NewTest1@4f7d0008]" name="abc" duration-ms="2" started-at="2018-04-16T05:50:55Z" finished-at="2018-04-16T05:50:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- abc -->
+        <test-method status="PASS" signature="xyz()[pri:3, instance:com.tests.NewTest1@4f7d0008]" name="xyz" duration-ms="2" started-at="2018-04-16T05:50:55Z" finished-at="2018-04-16T05:50:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xyz -->
+      </class> <!-- com.tests.NewTest1 -->
+    </test> <!-- DemoFunctionCalls_Basic -->
+    <test name="DemoMercuryToursLogin" duration-ms="26585" started-at="2018-04-16T05:50:55Z" finished-at="2018-04-16T05:51:22Z">
+      <class name="com.tests.MercuryToursTest">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:com.tests.MercuryToursTest@2f686d1f]" name="beforeTest" is-config="true" duration-ms="4443" started-at="2018-04-16T05:50:55Z" finished-at="2018-04-16T05:51:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="testMercuryTours()[pri:0, instance:com.tests.MercuryToursTest@2f686d1f]" name="testMercuryTours" duration-ms="21952" started-at="2018-04-16T05:51:00Z" finished-at="2018-04-16T05:51:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMercuryTours -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.tests.MercuryToursTest@2f686d1f]" name="afterTest" is-config="true" duration-ms="185" started-at="2018-04-16T05:51:22Z" finished-at="2018-04-16T05:51:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.tests.MercuryToursTest -->
+    </test> <!-- DemoMercuryToursLogin -->
+    <test name="DemoTestAttributes_Basic" duration-ms="11794" started-at="2018-04-16T05:51:22Z" finished-at="2018-04-16T05:51:34Z">
+      <class name="com.tests.NewTest5">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:com.tests.NewTest5@5bcab519]" name="beforeTest" is-config="true" duration-ms="4021" started-at="2018-04-16T05:51:22Z" finished-at="2018-04-16T05:51:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="testGoogle()[pri:0, instance:com.tests.NewTest5@5bcab519]" name="testGoogle" duration-ms="2858" started-at="2018-04-16T05:51:26Z" finished-at="2018-04-16T05:51:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGoogle -->
+        <test-method status="PASS" signature="testNewTours()[pri:0, instance:com.tests.NewTest5@5bcab519]" name="testNewTours" duration-ms="4771" started-at="2018-04-16T05:51:29Z" finished-at="2018-04-16T05:51:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNewTours -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.tests.NewTest5@5bcab519]" name="afterTest" is-config="true" duration-ms="138" started-at="2018-04-16T05:51:34Z" finished-at="2018-04-16T05:51:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.tests.NewTest5 -->
+    </test> <!-- DemoTestAttributes_Basic -->
+    <test name="DemoTestSwitchFrame_Basic" duration-ms="31077" started-at="2018-04-16T05:51:34Z" finished-at="2018-04-16T05:52:05Z">
+      <class name="com.tests.NewTest4">
+        <test-method status="PASS" signature="testHDFC()[pri:0, instance:com.tests.NewTest4@72d818d1]" name="testHDFC" duration-ms="31074" started-at="2018-04-16T05:51:34Z" finished-at="2018-04-16T05:52:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHDFC -->
+      </class> <!-- com.tests.NewTest4 -->
+    </test> <!-- DemoTestSwitchFrame_Basic -->
+  </suite> <!-- DemopAllTests -->
+</testng-results>

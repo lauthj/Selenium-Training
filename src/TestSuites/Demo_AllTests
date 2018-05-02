@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="DemopAllTests">
+    <test name="Demo_DataDrivenTest_Basic">
+        <classes>
+            <class name="com.tests.NewTest3" />
+        </classes>
+    </test>
+	<parameter name="browser" value="chrome" />
+    <test name="DemoFunctionCall_Parameter">
+        <classes>
+            <class name="com.tests.NewTest5" />
+        </classes>
+    </test>
+    <test name="DemoFunctionCalls_Basic">
+        <classes>
+            <class name="com.tests.NewTest1" />
+        </classes>
+    </test>
+	<parameter name="browser" value="chrome" />
+    <test name="DemoMercuryToursLogin">
+        <classes>
+            <class name="com.tests.MercuryToursTest" />
+        </classes>
+    </test>
+	<parameter name="browser" value="chrome" />
+    <test name="DemoTestAttributes_Basic">
+        <classes>
+            <class name="com.tests.NewTest5" />
+        </classes>
+    </test>
+    <test name="DemoTestSwitchFrame_Basic">
+        <classes>
+            <class name="com.tests.NewTest4" />
+        </classes>
+    </test>
+</suite>

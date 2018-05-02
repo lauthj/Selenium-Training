@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="DemoFunctionParameter">
+	<parameter name="browser" value="chrome" />
+    <test name="DemoFunctionCall_Parameter">
+        <classes>
+            <class name="com.tests.NewTest5" />
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TestSuite1">
+    <test name="TestFunctionaCallBasic">
+        <classes>
+            <class
+                name="com.tests.NewTest1" />
+        </classes>
+    </test>
+        <test name="TestFunctionaCallBasic2">
+        <classes>
+            <class
+                name="com.tests.NewTest6" />
+        </classes>
+    </test>
+    <parameter name="browser" value="chrome" />
+    <test name="Chrome">
+        <classes>
+            <class
+                name="com.tests.NewTest5" />
+        </classes>
+    </test>
+    
+        <test name="Newtours">
+        <classes>
+            <class
+                name="com.tests.NewTest3" />
+        </classes>
+    </test>
+    
+</suite>

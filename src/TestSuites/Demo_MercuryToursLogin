@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="DemoMercuryToursLogin">
+<parameter name="browser" value="chrome" />
+    <test name="DemoMercuryToursLogin">
+        <classes>
+            <class name="com.tests.MercuryToursTest" />
+        </classes>
+    </test>
+</suite>

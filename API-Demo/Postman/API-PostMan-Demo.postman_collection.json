@@ -1,0 +1,123 @@
+{
+	"variables": [],
+	"info": {
+		"name": "API-PostMan-Demo",
+		"_postman_id": "9763048e-ee54-05b4-a182-bd65ab9b1516",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Post",
+			"request": {
+				"url": "https://postman-echo.com/post",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "POst call contects"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "https://postman-echo.com/get?foo1=bar1&foo2=bar2",
+			"request": {
+				"url": {
+					"raw": "https://postman-echo.com/get?foo1=bar1&foo2=bar2",
+					"protocol": "https",
+					"host": [
+						"postman-echo",
+						"com"
+					],
+					"path": [
+						"get"
+					],
+					"query": [
+						{
+							"key": "foo1",
+							"value": "bar1",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "foo2",
+							"value": "bar2",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "GetBooksbyAuthor copy",
+			"request": {
+				"url": {
+					"raw": "https://www.googleapis.com/books/v1/volumes?q=author:taleb",
+					"protocol": "https",
+					"host": [
+						"www",
+						"googleapis",
+						"com"
+					],
+					"path": [
+						"books",
+						"v1",
+						"volumes"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "author:taleb",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "GetVolumes copy",
+			"request": {
+				"url": {
+					"raw": "https://{{endpoint}}/volumes?q=flowers+inauthor:keyes",
+					"protocol": "https",
+					"host": [
+						"{{endpoint}}"
+					],
+					"path": [
+						"volumes"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "flowers+inauthor:keyes",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}

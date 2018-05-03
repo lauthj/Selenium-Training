@@ -13,7 +13,7 @@ public class NewTest2 {
 	@Test
 	public void testGoogle()
 	{
-	WebDriver driver=DriverUtility.getDriver("ie");
+	WebDriver driver=DriverUtility.getDriver("chrome");
 	driver.manage().window().maximize();//to maximize the browser window
 	driver.get("http://www.google.co.in/");// to launch the Application
 	String title=driver.getTitle();

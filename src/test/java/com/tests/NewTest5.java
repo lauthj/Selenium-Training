@@ -1,6 +1,7 @@
 package com.tests;
 
 import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
@@ -10,27 +11,29 @@ import org.testng.annotations.Test;
 
 public class NewTest5 {
 	WebDriver driver;
-	@BeforeTest
+	@BeforeTest(groups = {"functional", "positive" })
 	@Parameters("browser")
 	public void beforeTest(String value)
 	{
 		System.out.println("in before test");
 		driver=DriverUtility.getDriver(value);
+		System.out.println(value);
+		Assert.assertNotNull(driver);
 		driver.manage().window().maximize();
 	}
-	@AfterTest
+	@AfterTest(groups = {"functional", "positive" })
 	public void afterTest()
 	{
 		System.out.println("in after test");
 		driver.close();
 	}
-	@Test
+	@Test(groups = {"functional", "positive" })
 	public void testGoogle()
 	{	
 		System.out.println("in test google");
 		driver.get("http://www.google.co.in/");
 	}
-	@Test
+	@Test(groups = {"positive"})
 	public void testNewTours()
 	{
 		System.out.println("in test newtours");

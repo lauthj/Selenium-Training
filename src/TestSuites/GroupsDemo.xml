@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="DemoGroups">
+    <parameter name="browser" value="chrome" />
+    <test name="DemoMercuryToursLogin">
+        <groups>
+            <run>
+                <include name = "positive" />
+            </run>
+        </groups>
+        <classes>
+            <class name="com.tests.NewTest5" />
+        </classes>
+    </test>
+</suite>

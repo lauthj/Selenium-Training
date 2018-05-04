@@ -6,10 +6,11 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
 
 public class NewTest2 {
-	
+
 	@Test
 	public void testGoogle()
 	{
@@ -28,10 +29,12 @@ public class NewTest2 {
 	
 	for(WebElement e:list)
 	{
+		//System.out.println(e.getText());
 		List<WebElement> ul=e.findElements(By.tagName("li"));
 		System.out.println("No of Apps:"+ul.size());
 	}
-	
+	driver.close();
+
 	}
 
 }

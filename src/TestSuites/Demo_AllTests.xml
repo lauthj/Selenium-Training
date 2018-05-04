@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite name="DemopAllTests">
+<suite name="DemopAllTests" parallel="false">
     <test name="Demo_DataDrivenTest_Basic">
         <classes>
             <class name="com.tests.NewTest3" />

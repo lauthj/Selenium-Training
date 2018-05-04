@@ -30,7 +30,14 @@ public class NewTest4 {
 		for(String s:set)
 		{
 			System.out.println(s);
+
 			driver.switchTo().window(s);
+			System.out.println(driver.getTitle());
+			if(driver.getTitle().contains("NetBanking")) //Switching to Net banking Window
+			{
+				break;
+			}
+
 		}
 		
 		driver.findElement(By.xpath("//div[@class='pdtb25 text-center']/a[1]")).click();

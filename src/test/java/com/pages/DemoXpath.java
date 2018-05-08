@@ -18,6 +18,9 @@ public class DemoXpath {
     @FindBy(xpath = "//*[@id=\"menu-item-53\"]/a")
     WebElement home;
 
+    @FindBy(xpath = "//*[@id=\"menu-item-54\"]/a")
+    WebElement samplePage;
+
     /*@FindBy(xpath = "//*[contains(@title,'Apple iPhone 4S')]")
     WebElement realtiveFlexibleXpath;*/
 
@@ -40,9 +43,10 @@ public class DemoXpath {
         try {
             Thread.sleep(sleepDuration);
             home.click();
-            driver.navigate().back();
+            //driver.navigate().back();
 
             Thread.sleep(sleepDuration);
+            samplePage.click();
             //relativeXpath.click();
             Thread.sleep(sleepDuration);
             driver.navigate().back();

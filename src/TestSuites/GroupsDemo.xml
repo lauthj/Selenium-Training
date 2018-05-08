@@ -4,7 +4,7 @@
     <test name="DemoMercuryToursLogin">
         <groups>
             <run>
-                <include name = "positive" />
+                <include name = "functional" />
             </run>
         </groups>
         <classes>

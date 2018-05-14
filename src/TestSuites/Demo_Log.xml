@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="DemoParamater" parallel="tests">
+    <test name="TestChrome">
+        <groups>
+            <run>
+                <include name = "functional" />
+            </run>
+        </groups>
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="com.tests.NewTest8" />
+        </classes>
+    </test>
+</suite>

@@ -29,6 +29,7 @@ public class RegisterPage {
 		signoff.click();
 	}
 	
+	
 	public void clickSubmit()
 	{
 		email.sendKeys("mercury");

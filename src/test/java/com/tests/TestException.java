@@ -7,7 +7,7 @@ public class TestException {
 		
 		int[] a= {10,20,30};
 		try {
-		System.out.println(a[3]);
+		System.out.println(a[2]);
 		}
 		catch (Exception e) {
 			// TODO: handle exception

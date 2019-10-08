@@ -7,16 +7,19 @@ import org.openqa.selenium.support.PageFactory;
 
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
+
 
 public class DemoXpathTest {
 
     WebDriver driver;
     DemoXpath demoPage;
 
-    @BeforeTest
+    @BeforeTest()
     @Parameters("browser")
+    
     public void beforeTest(String value)
     {
         driver=DriverUtility.getDriver(value);

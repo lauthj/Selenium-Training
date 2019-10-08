@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]" parallel="tests">
-  <test thread-count="5" name="Test2(failed)" parallel="tests">
+<suite parallel="tests" name="Failed suite [Suite]">
+  <test thread-count="5" parallel="tests" name="Test2(failed)">
     <parameter name="browser" value="firefox"/>
     <classes>
       <class name="com.tests.MercuryToursTest">

@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]" parallel="tests">
-  <test thread-count="5" name="Test2(failed)" parallel="tests">
-    <parameter name="browser" value="firefox"/>
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.tests.MercuryToursTest">
+      <class name="com.tests.NewTest5">
         <methods>
           <include name="afterTest"/>
           <include name="beforeTest"/>
-          <include name="testMercuryTours"/>
+          <include name="testGoogle"/>
+          <include name="testNewTours"/>
         </methods>
-      </class> <!-- com.tests.MercuryToursTest -->
+      </class> <!-- com.tests.NewTest5 -->
     </classes>
-  </test> <!-- Test2(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -2,16 +2,15 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [TestSuite1]">
   <parameter name="browser" value="chrome"/>
-  <test thread-count="5" name="Chrome(failed)">
+  <test thread-count="5" name="Newtours(failed)">
     <classes>
-      <class name="com.tests.NewTest5">
+      <class name="com.tests.NewTest3">
         <methods>
           <include name="afterTest"/>
           <include name="beforeTest"/>
-          <include name="testGoogle"/>
-          <include name="testNewTours"/>
+          <include name="testMercuryTours" invocation-numbers="1 2"/>
         </methods>
-      </class> <!-- com.tests.NewTest5 -->
+      </class> <!-- com.tests.NewTest3 -->
     </classes>
-  </test> <!-- Chrome(failed) -->
+  </test> <!-- Newtours(failed) -->
 </suite> <!-- Failed suite [TestSuite1] -->

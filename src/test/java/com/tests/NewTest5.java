@@ -2,18 +2,18 @@ package com.tests;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
-import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class NewTest5 {
 	WebDriver driver;
-	@BeforeTest(groups = {"functional", "positive" })
+	@BeforeTest(groups = {"functional", "positive"})
 	@Parameters("browser")
-	public void beforeTest(String value)
+	
+	public void beforeTest(@Optional String value)
 	{
 		System.out.println("in before test");
 		driver=DriverUtility.getDriver(value);

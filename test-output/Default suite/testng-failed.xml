@@ -1,20 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.tests.NewTest3">
-        <methods>
-          <include name="afterTest"/>
-          <include name="beforeTest"/>
-          <include name="testMercuryTours"/>
-        </methods>
-      </class> <!-- com.tests.NewTest3 -->
-      <class name="com.tests.NewTest2">
-        <methods>
-          <include name="testGoogle"/>
-        </methods>
-      </class> <!-- com.tests.NewTest2 -->
       <class name="com.tests.NewTest5">
         <methods>
           <include name="afterTest"/>
@@ -23,32 +11,6 @@
           <include name="testNewTours"/>
         </methods>
       </class> <!-- com.tests.NewTest5 -->
-      <class name="com.tests.MercuryToursTest">
-        <methods>
-          <include name="afterTest"/>
-          <include name="beforeTest"/>
-          <include name="testMercuryTours"/>
-        </methods>
-      </class> <!-- com.tests.MercuryToursTest -->
-      <class name="com.tests.NewTest6">
-        <methods>
-          <include name="afterSuite"/>
-          <include name="beforeClass"/>
-          <include name="afterMethod"/>
-          <include name="afterTest"/>
-          <include name="afterClass"/>
-          <include name="beforeSuite"/>
-          <include name="beforeMethod"/>
-          <include name="testGoogle"/>
-          <include name="beforeTest"/>
-          <include name="testHDFC"/>
-        </methods>
-      </class> <!-- com.tests.NewTest6 -->
-      <class name="com.tests.NewTest4">
-        <methods>
-          <include name="testHDFC"/>
-        </methods>
-      </class> <!-- com.tests.NewTest4 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
